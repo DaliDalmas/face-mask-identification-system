@@ -129,10 +129,7 @@ dmypy.json
 .pyre/
 
 # Where all the images used tobuild the model are stored.
-./src/lab/data
-src/lab/data/
-src/lab/data
-.src/lab/data
-*/data
-*/data/
-*/data/*
+*.png
+*.jpg
+*.jpeg
+*.JPEG

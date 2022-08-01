@@ -192,3 +192,5 @@ dmypy.json
 # 3D Images
 *.3dm
 *.max
+
+*.DS_Store

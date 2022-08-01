@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Where all the images used tobuild the model are stored.
+./src/lab/data

@@ -1,4 +1,5 @@
-FROM PYTHON
+FROM python
 WORKDIR /app
 COPY . .
-RUN pip install -r api-requirements.txt
+RUN pip install -r requirements.txt
+CMD jupyter lab 

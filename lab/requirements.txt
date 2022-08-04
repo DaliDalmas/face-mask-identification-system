@@ -1,2 +1,6 @@
 jupyterlab
 pandas
+torch
+torchvision
+scikit-learn
+matplotlib

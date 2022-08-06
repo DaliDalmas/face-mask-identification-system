@@ -1,0 +1,14 @@
+version: '3'
+services:
+  user-interface-service:
+    build: ./ui
+    ports:
+      - 5001:8080
+  api-service:
+    build: ./api
+    ports:
+      - 5002:80
+  lab-service:
+    build: ./lab
+    ports:
+      - 5003:8888

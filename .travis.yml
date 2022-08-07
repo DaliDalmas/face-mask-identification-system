@@ -7,6 +7,7 @@ install:
   - export PYTHONPATH=`pwd`
   - pip install pytest-cov codecov  # install packages from code coverage
 script:
-  - pytest --cov=src tests # point to the source direcctory
+  - pytest --cov=api/src api/tests # point to the source direcctory
+  - pytest --cov=lab/src lab/tests
 after_success:
   - codecov # uploads report to codecov.io

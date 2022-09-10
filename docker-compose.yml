@@ -2,13 +2,19 @@ version: '3'
 services:
   user-interface-service:
     build: ./ui
+    volumes:
+      - ./ui:/app
     ports:
       - 5001:8080
   api-service:
     build: ./api
+    volumes:
+      - ./api:/code
     ports:
       - 5002:80
   lab-service:
     build: ./lab
+    volumes:
+      - ./lab:/code
     ports:
       - 5003:8888
